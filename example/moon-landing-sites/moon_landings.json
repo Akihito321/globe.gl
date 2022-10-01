@@ -706,34 +706,34 @@
   {
     "lat": 35.0,
     "lng": 19.1,
-    "label": "Deep moonquake",
+    "label": "Shallow moonquake",
     "program": "Apollo",
     "agency": "NASA",
     "date": "2000-11-11",
     "url": "https://www.www.www/www/www",
-    "type": "deep",
+    "type": "shallow",
     "depth": 1063
   },
   {
     "lat": 3.4,
     "lng": 2.0,
-    "label": "Deep moonquake",
+    "label": "Meteorite moonquake",
     "program": "Apollo",
     "agency": "NASA",
     "date": "2000-11-11",
     "url": "https://www.www.www/www/www",
-    "type": "deep",
+    "type": "meteorite",
     "depth": 559
   },
   {
     "lat": 7.1,
     "lng": 22.5,
-    "label": "Deep moonquake",
+    "label": "Thermal moonquake",
     "program": "Apollo",
     "agency": "NASA",
     "date": "2000-11-11",
     "url": "https://www.www.www/www/www",
-    "type": "deep",
+    "type": "thermal",
     "depth": 984
   }
   
