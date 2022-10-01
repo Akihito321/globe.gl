@@ -12,7 +12,7 @@
 <div id="globeViz"></div>
 
 <script>
-  const classColor = {deep:"#C030C0", shallow:"FFFF00", meteor:"#FF0000", thermal:"#F39800", apollo:"#008000"};
+  const classColor = {deep:"#FF30C0", shallow:"FFFF00", meteor:"#FF0000", thermal:"#F39800", apollo:"#008000"};
   const labelsTopOrientation = new Set(['Apollo 12', 'Luna 2', 'Luna 20', 'Luna 21', 'Luna 24', 'LCROSS Probe']); // avoid label collisions
 
   const elem = document.getElementById('globeViz');
@@ -29,8 +29,9 @@
     .labelColor(d => classColor[d.type])
     .labelLabel(d => `
         <div><b>${d.label}</b></div>
-        <div>${d.agency} - ${d.program} Program</div>
-        <div>Landing on <i>${new Date(d.date).toLocaleDateString()}</i></div>
+        <div>Latitude   {d.lat} °</div>
+        <div>Longtitude {d.lng} °</div>
+        <div>Depth      {d.depth} km</div>
       `)
     (elem);
 
