@@ -6,7 +6,8 @@
     "program": "Apollo",
     "agency": "NASA",
     "date": "1969-7-20",
-    "url": "https://en.wikipedia.org/wiki/Apollo_11"
+    "url": "https://en.wikipedia.org/wiki/Apollo_11",
+    "type": "apollo"
   },
   {
     "lat": -3.01184,
@@ -15,7 +16,8 @@
     "program": "Apollo",
     "agency": "NASA",
     "date": "1969-11-19",
-    "url": "https://en.wikipedia.org/wiki/Apollo_12"
+    "url": "https://en.wikipedia.org/wiki/Apollo_12",
+    "type": "apollo"
   },
   {
     "lat": -3.64450,
@@ -24,7 +26,8 @@
     "program": "Apollo",
     "agency": "NASA",
     "date": "1971-2-5",
-    "url": "https://en.wikipedia.org/wiki/Apollo_14"
+    "url": "https://en.wikipedia.org/wiki/Apollo_14",
+    "type": "apollo"
   },
   {
     "lat": 26.13407,
@@ -33,7 +36,8 @@
     "program": "Apollo",
     "agency": "NASA",
     "date": "1971-7-30",
-    "url": "https://en.wikipedia.org/wiki/Apollo_15"
+    "url": "https://en.wikipedia.org/wiki/Apollo_15",
+    "type": "apollo"
   },
   {
     "lat": -8.97477,
@@ -42,7 +46,8 @@
     "program": "Apollo",
     "agency": "NASA",
     "date": "1972-4-21",
-    "url": "https://en.wikipedia.org/wiki/Apollo_16"
+    "url": "https://en.wikipedia.org/wiki/Apollo_16",
+    "type": "apollo"
   },
   {
     "lat": 20.18935,
@@ -51,7 +56,8 @@
     "program": "Apollo",
     "agency": "NASA",
     "date": "1972-12-11",
-    "url": "https://en.wikipedia.org/wiki/Apollo_17"
+    "url": "https://en.wikipedia.org/wiki/Apollo_17",
+    "type": "apollo"
   },
   {
     "lat": 29.1,
