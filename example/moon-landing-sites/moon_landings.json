@@ -2,120 +2,37 @@
   {
     "lat": 0.6737,
     "lng": 23.47295,
-    "label": "Deep moonquake",
-    "type": "deep",
-    "depth": 1050.3
+    "label": "Apollo 11",
+    "depth": "-"
   },
   {
     "lat": -3.01184,
     "lng": -23.42156,
-    "label": "Deep moonquake",
-    "type": "deep",
-    "depth": 1050.3
+    "label": "Apollo 12",
+    "depth": "-"
   },
   {
     "lat": -3.64450,
     "lng": -17.47753,
-    "label": "Deep moonquake",
-    "type": "deep",
-    "depth": 1050.3
+    "label": "Apollo 14",
+    "depth": "-"
   },
   {
     "lat": 26.13407,
     "lng": 3.62981,
-    "label": "Deep moonquake",
-    "type": "deep",
-    "depth": 1050.3
+    "label": "Apollo 15",
+    "depth": "-"
   },
   {
     "lat": -8.97477,
     "lng": 15.49749,
-    "label": "Deep moonquake",
-    "type": "deep",
-    "depth": 1050.3
+    "label": "Apollo 16",
+    "depth": "-"
   },
   {
     "lat": 20.18935,
     "lng": 30.76996,
-    "label": "Deep moonquake",
-    "type": "deep",
-    "depth": 1050.3
-  },
-  {
-    "lat": 29.1,
-    "lng": 0,
-    "label": "Deep moonquake",
-    "type": "deep",
-    "depth": 1050.3
-  },
-  {
-    "lat": 7.08,
-    "lng": -64.37,
-    "label": "Deep moonquake",
-    "type": "deep",
-    "depth": 1050.3
-  },
-  {
-    "lat": 18.87,
-    "lng": -62.05,
-    "label": "Deep moonquake",
-    "type": "deep",
-    "depth": 1050.3
-  },
-  {
-    "lat": -0.68,
-    "lng": 56.3,
-    "label": "Deep moonquake",
-    "type": "deep",
-    "depth": 1050.3
-  },
-  {
-    "lat": 38.28,
-    "lng": -35,
-    "label": "Deep moonquake",
-    "type": "deep",
-    "depth": 1050.3
-  },
-  {
-    "lat": 3.57,
-    "lng": 56.5,
-    "label": "Deep moonquake",
-    "type": "deep",
-    "depth": 1050.3
-  },
-  {
-    "lat": 25.51,
-    "lng": 30.38,
-    "label": "Deep moonquake",
-    "type": "deep",
-    "depth": 1050.3
-  },
-  {
-    "lat": 12.25,
-    "lng": 62.2,
-    "label": "Deep moonquake",
-    "type": "deep",
-    "depth": 1050.3
-  },
-  {
-    "lat": -84.72,
-    "lng": -49.62,
-    "label": "Shallow moonquake",
-    "type": "shallow",
-    "depth": 1050.3
-  },
-  {
-    "lat": 44.12,
-    "lng": 19.51,
-    "label": "Meteorite moonquake",
-    "type": "meteor",
-    "depth": 1050.3
-  },
-  {
-    "lat": -45.4446,
-    "lng": 177.5991,
-    "label": "Thermal moonquake",
-    "type": "thermal",
-    "depth": 1050.3
+    "label": "Apollo 17",
+    "depth": "-"
   }
 ]
