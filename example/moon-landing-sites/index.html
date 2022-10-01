@@ -31,9 +31,9 @@
     .labelColor(d => classColor[d.type])
     .labelLabel(d => `
         <div><b>${d.label}</b></div>
-        <div>${d.latitude}</div>
-        <div>${d.longtitude}</div>
-        <div>${d.depth}</div>
+        <div>${d.lat} °</div>
+        <div>${d.lng} °</div>
+        <div>${d.depth} km</div>
       `)
     (elem);
 
