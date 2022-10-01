@@ -12,7 +12,7 @@
 <div id="globeViz"></div>
 
 <script>
-  alert('hoge2');
+  alert('hoge3');
   const colorScale = d3.scaleOrdinal(['orangered', 'mediumblue', 'darkgreen', 'yellow']);
   const classColor = {deep:"#C030C0", shallow:"#FFFF00", meteor:"#FF0000", thermal:"#F39800", apollo:"#00FF00"};
 
@@ -27,7 +27,7 @@
     .showAtmosphere(false) // moon has no atmosphere
     .labelSize(1.7)
     .labelDotRadius(0.4)
-    .labelDotOrientation(d => labelsTopOrientation.has(d.label) ? 'top' : 'bottom')
+    //.labelDotOrientation(d => labelsTopOrientation.has(d.label) ? 'top' : 'bottom')
     .labelColor(d => classColor[d.type])
     .labelLabel(d => `
         <div><b>${d.label}</b></div>
@@ -37,8 +37,8 @@
       `)
     (elem);
 
-  fetch('./moon_landings.json').then(r => r.json());//.then(landingSites => {
-  //  moon.labelsData(landingSites);
-  //});
+  fetch('./moon_landings.json').then(r => r.json()).then(landingSites => {
+    moon.labelsData(landingSites);
+  });
 </script>
 </body>
