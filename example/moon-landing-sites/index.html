@@ -12,7 +12,7 @@
 <div id="globeViz"></div>
 
 <script>
-  alert('hoge7');
+  alert('hoge8');
   const colorScale = d3.scaleOrdinal(['orangered', 'mediumblue', 'darkgreen', 'yellow']);
   
   const classColor = {deep:"#C030C0", shallow:"#FFFF00", meteor:"#FF0000", thermal:"#F39800", apollo:"#00FF00"};
@@ -36,15 +36,10 @@
     //.labelColor(d => classColor[d.type])
     .labelLabel(d => `
         <div><b>${d.label}</b></div>
-        <div>${d.agency} - ${d.program} Program</div>
-        <div>Landing on <i>${new Date(d.date).toLocaleDateString()}</i></div>
+        <div>Latitude ${d.lat} °</div>
+        <div>Longtitude ${d.lng} °</div>
+        <div>Depth ${d.depth} km</div>
       `)
-    //.labelLabel(d => `
-    //    <div><b>${d.label}</b></div>
-    //    <div>Latitude ${d.lat} °</div>
-    //    <div>Longtitude ${d.lng} °</div>
-    //    <div>Depth ${d.depth} km</div>
-    //  `)
     .onLabelClick(d => window.open(d.url, '_blank'))
     (elem);
 
