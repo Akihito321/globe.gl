@@ -12,8 +12,7 @@
 <div id="globeViz"></div>
 
 <script>
-  const colorScale = d3.scaleOrdinal(['orangered', 'mediumblue', 'darkgreen', 'yellow']);
-
+  const classColor = {deep:"#C030C0", shallow:"FFFF00", meteor:"#FF0000", thermal:"#F39800", apollo:"#008000"};
   const labelsTopOrientation = new Set(['Apollo 12', 'Luna 2', 'Luna 20', 'Luna 21', 'Luna 24', 'LCROSS Probe']); // avoid label collisions
 
   const elem = document.getElementById('globeViz');
@@ -27,7 +26,7 @@
     .labelSize(1.7)
     .labelDotRadius(0.4)
     .labelDotOrientation(d => labelsTopOrientation.has(d.label) ? 'top' : 'bottom')
-    .labelColor(d => colorScale(d.agency))
+    .labelColor(d => classColor[d.type])
     .labelLabel(d => `
         <div><b>${d.label}</b></div>
         <div>${d.agency} - ${d.program} Program</div>
