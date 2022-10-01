@@ -27,7 +27,7 @@
     .labelText('label')
     .labelSize(1.7)
     .labelDotRadius(0.4)
-    .labelDotOrientation(d => labelsTopOrientation.has(d.label) ? 'top' : 'bottom')
+    .labelDotOrientation(d => labelsTopOrientation.has(d.type) ? 'top' : 'bottom')
     .labelColor(d => classColor[d.type])
     .labelLabel(d => `
         <div><b>${d.label}</b></div>
